@@ -1,0 +1,13 @@
+import mysql.connector
+
+# Connect to MySQL database
+con = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="your_password",
+    database="college"
+)
+
+print("Database connected successfully!")
+
+con.close()
